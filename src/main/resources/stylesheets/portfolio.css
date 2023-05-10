@@ -17,7 +17,7 @@ li{
 }
 
 .sidebar {
-    background-color: #EC9533;
+    background-color: #f1f1f1;
     width: 200px;
     height: 100vh;
     position: fixed;
@@ -84,13 +84,15 @@ li{
 
 .main-content > .aboutMe > .backImage {
     width: 120rem;
-    height: 43rem;
+    height: 50rem;
+    margin-bottom: 12rem;
 }
 .title {
     font: inherit;
     font-size: 3.5rem;
+    margin-top: 7rem;
 }
-.skill {
+.skills {
     margin-top: 3rem;
 }
 
@@ -105,12 +107,13 @@ li{
     padding-inline: unset;
 }
 
-.grid > .item > .image{
+.grid > .skill > .image{
     width: 5rem;
     margin-bottom: 0.5rem;
 }
 
-.grid > .item > .text {
+.grid > .skill > .text {
     font: inherit;
     font-size: 1.125rem;
 }
+
