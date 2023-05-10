@@ -17,7 +17,7 @@ li{
 }
 
 .sidebar {
-    background-color: #f1f1f1;
+    background-color: #EC9533;
     width: 200px;
     height: 100vh;
     position: fixed;
@@ -29,6 +29,7 @@ li{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 3rem;
 }
 
 .profile-image img {
@@ -82,7 +83,7 @@ li{
 }
 
 .main-content > .aboutMe > .backImage {
-    width: 83rem;
+    width: 120rem;
     height: 43rem;
 }
 .title {
@@ -97,7 +98,7 @@ li{
     align-self: stretch;
     display: grid;
     gap: 2rem;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     list-style-type: none;
     margin-block: unset;
     margin-inline: unset;
